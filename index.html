@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <!-- Add Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Stopwatch</h1>
+    <div class="text-center">
+      <p>Time: <span id="display">0:00</span></p>
+      <button id="start" class="btn btn-success">Start</button>
+      <button id="stop" class="btn btn-danger">Stop</button>
+      <button id="reset" class="btn btn-warning">Reset</button>
+      <button id="save" class="btn btn-primary">Save</button> <!-- Add Save button -->
+    </div>
+    <ul id="recorded-times" class="list-group mt-3"></ul>
+  </div>
+
+  <!-- Add Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Include the JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>

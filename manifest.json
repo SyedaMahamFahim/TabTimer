@@ -1,0 +1,11 @@
+{
+  "name": "TabTimer",
+  "version": "1.0.0",
+  "description": "A Chrome extension to track your time on a tab",
+  "manifest_version": 3,
+  "author": "Syeda Maham Fahim",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "TabTimer"
+  }
+}
