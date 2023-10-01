@@ -47,6 +47,7 @@ function stopTimer() {
 
 function resetTimer() {
   elapsedTime = 0;
+  startButton.textContent = "Start";
   updateDisplay();
   recordedTimes.length = 0; // Clear the recorded times array
   recordedTimesList.innerHTML = ""; // Clear the recorded times list
