@@ -2,6 +2,8 @@
 
 The TabTimer extension is a simple timer for Google Chrome that allows users to track time and manage breaks. This extension is designed to provide a straightforward timer feature without tracking user activity.
 
+# Detail Article 
+https://www.syedamaham.dev/articles/build-a-chrome-extension-from-scratch
 ## Features
 
 - Start and pause the timer.
